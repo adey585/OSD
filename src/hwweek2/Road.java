@@ -1,7 +1,6 @@
 package hwweek2;
 
-public interface Road {
+public class Road {
 
-    void roadMethod();
 
 }

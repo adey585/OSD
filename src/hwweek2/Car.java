@@ -2,7 +2,12 @@ package hwweek2;
 
 public class Car extends Vehicle {
 
-    void caution() {
-        System.out.println(speedLimit);
+    protected void Accelerate(int secondsDelta) {
+        SetCurrentSpeed(GetCurrentSpeed() + Constants.AccRate * secondsDelta * Constants.MpsToMph);
     }
+
+    protected void Decelerate(int secondsDelta) {
+        SetCurrentSpeed(GetCurrentSpeed() - Constants.DecRate * secondsDelta * Constants.MpsToMph);
+    }
+
 }

@@ -1,8 +1,5 @@
 package hwweek2;
 
-public class Yield extends StaticRoadItem {
+public class Yield {
 
-    void stopAndWatch() {
-        System.out.println(rightAway);
-    }
 }

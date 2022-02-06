@@ -1,7 +1,7 @@
 package hwweek2;
 
-public interface Map {
+public class Map {
 
-    void mapMethod();
+
 
 }

@@ -1,9 +1,7 @@
 package hwweek2;
 
-public class Intersection extends StaticRoadItem {
+public class Intersection {
 
-    void fourCorners() {
-        System.out.println(fourWays);
-    }
+
 
 }

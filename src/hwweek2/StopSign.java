@@ -1,9 +1,7 @@
 package hwweek2;
 
-public class StopSign extends StaticRoadItem {
+public class StopSign {
 
-    void symbols() {
-        System.out.println(signs);
-    }
+
 
 }

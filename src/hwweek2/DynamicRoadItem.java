@@ -1,12 +1,6 @@
 package hwweek2;
 
-public abstract class DynamicRoadItem extends RoadItem {
+public class DynamicRoadItem {
 
-    void method() {
-        System.out.println("Implementing method from RoadItem Class");
-        commonMethod();
-    }
-
-    String tLight [] = {"Green", "Yellow", "Red"} ;
 
 }

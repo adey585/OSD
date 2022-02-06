@@ -1,9 +1,6 @@
 package hwweek2;
 
-public class SpeedLimit extends StaticRoadItem {
+public class SpeedLimit {
 
-    void speed() {
-        System.out.println("The maximum speed is " + maxSpeed + " MPH");
-    }
 
 }

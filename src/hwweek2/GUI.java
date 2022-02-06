@@ -1,7 +1,6 @@
 package hwweek2;
 
-public interface GUI {
+public class GUI {
 
-    void GUIMethod();
 
 }
