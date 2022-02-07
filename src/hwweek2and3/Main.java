@@ -1,7 +1,5 @@
-package hwweek2;
-import java.io.Console;
+package hwweek2and3;
 import java.util.*;
-import java.lang.*;
 
 public class Main {
 
@@ -24,7 +22,9 @@ public class Main {
             for (Vehicle v:vehicles) {
                 v.UpdateSpeed(1);
                 String s = v.getClass().toString();
-                Console.writeLine("{0} speed: {1:F} mph", s, v.GetCurrentSpeed());
+                //ConsSole.writeLine("{0} speed: {1:F} mph", s, v.GetCurrentSpeed());
+                //System.out.println(s + "speed:" + v.GetCurrentSpeed() + " mph");
+                System.out.println(s + " speed:" + String.format(" %.2f", v.GetCurrentSpeed()) + " mph");
             }
         }
 

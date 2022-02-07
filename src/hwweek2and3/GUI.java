@@ -1,4 +1,4 @@
-package hwweek2;
+package hwweek2and3;
 
 public class GUI {
 
